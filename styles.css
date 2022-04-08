@@ -1,0 +1,77 @@
+body {
+  background: #ddd;
+  margin: 1rem;
+  padding: 1rem;
+  max-width: 500px;
+  margin: 2rem auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+nav {
+	border-bottom: 2px solid orange;
+}
+
+ol {
+	padding-left: 0;
+}
+
+.crumb {
+	margin-right: 2em;
+	display: inline;
+}
+
+a {
+	color: orange;
+}
+
+a:visited {
+	color: crimson;
+}
+
+
+input {
+	display: block;
+}
+
+img {
+	max-width: 300px;
+}
+
+.styleMe {
+	height: 75px;
+	width: 90px;
+	background-color: yellow;
+}
+
+#skills{
+	border: 2px solid black;
+	border-radius: 30px 30px 30px 30px;
+}
+
+h1 {
+	text-align: center;
+}
+body > div:first-of-type > h3:first-of-type{
+	text-indent: 25px;
+}
+
+
+section {
+	display: flex;
+	justify-content: space-around;
+}
+
+/* .sacramento {
+	display: flex;
+	justify-self: center;
+} */
+
+.sacramento > h3 {
+	text-align: center;
+	color: rgb(98, 12, 12)
+}
+
+.note {
+	text-indent: 20px;
+	font-size: small;
+}
