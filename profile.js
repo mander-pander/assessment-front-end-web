@@ -1,6 +1,5 @@
 let dropdown = document.getElementById('interests');
 
-
 function displayParagraph() {
     if (dropdown.value === 'coding') {
         document.getElementById('coding').textContent = "Coding has become fun! I enjoy discovering new ways to complete the same problem."
@@ -12,6 +11,7 @@ function displayParagraph() {
 }
 
 dropdown.addEventListener('change', displayParagraph)
+
 
 let colorBtn = document.getElementById('color');
 let placeBtn = document.getElementById('place');
@@ -31,13 +31,6 @@ const alertBtn = (e) => {
 
 buttons.forEach(e => {
     e.addEventListener('click', alertBtn);
+    e.classList.add('styleMe');
 })
-
-const addClass = () => {
-    for(let i = 0; i < buttons.length; i++) {
-        buttons[i].classList.add('styleMe');
-    }
-}
-
-buttons.forEach(addClass);
 // console.log(buttons)

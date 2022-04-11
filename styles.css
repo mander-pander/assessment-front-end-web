@@ -35,12 +35,20 @@ input {
 
 img {
 	max-width: 300px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
 }
 
 .styleMe {
 	height: 75px;
 	width: 90px;
 	background-color: yellow;
+}
+
+.styleMe:hover {
+	cursor: pointer;
 }
 
 #skills{
@@ -51,8 +59,16 @@ img {
 h1 {
 	text-align: center;
 }
+
 body > div:first-of-type > h3:first-of-type{
 	text-indent: 25px;
+}
+
+.check {
+    display: flex;
+    align-items: flex-;
+    padding: 6px;
+    margin: 2px;
 }
 
 
@@ -61,10 +77,6 @@ section {
 	justify-content: space-around;
 }
 
-/* .sacramento {
-	display: flex;
-	justify-self: center;
-} */
 
 .sacramento > h3 {
 	text-align: center;
@@ -75,3 +87,9 @@ section {
 	text-indent: 20px;
 	font-size: small;
 }
+
+#restBtn:hover{
+	cursor: pointer;
+}
+
+
